@@ -141,9 +141,9 @@ table {
 }
 
 /*
-1. Change the font styles in all browsers.
-2. Remove the margin in Firefox and Safari.
-3. Remove default padding in all browsers.
+1. Cambia los estilos de fuente en todos los navegadores.
+2. Elimina el margen en Firefox y Safari.
+3. Elimina el relleno por defecto en todos los navegadores.
 */
 
 button,
@@ -168,7 +168,7 @@ textarea {
 }
 
 /*
-Remove the inheritance of text transform in Edge and Firefox.
+Elimina la herencia de transformación de texto en Edge y Firefox.
 */
 
 button,
@@ -177,8 +177,8 @@ select {
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
+1. Corrección de la imposibilidad de aplicar estilos a los tipos clicables en iOS y Safari.
+2. Elimina estilos de botones por defecto.
 */
 
 button,
@@ -195,7 +195,7 @@ button,
 }
 
 /*
-Use the modern Firefox focus style for all focusable elements.
+Utiliza el estilo de enfoque moderno de Firefox para todos los elementos enfocables.
 */
 
 :-moz-focusring {
@@ -203,7 +203,7 @@ Use the modern Firefox focus style for all focusable elements.
 }
 
 /*
-Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+Elimina los estilos adicionales `:invalid` en Firefox.
 */
 
 :-moz-ui-invalid {
@@ -211,7 +211,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 }
 
 /*
-Add the correct vertical alignment in Chrome and Firefox.
+Añade la alineación vertical correcta en Chrome y Firefox.
 */
 
 progress {
@@ -219,7 +219,7 @@ progress {
 }
 
 /*
-Correct the cursor style of increment and decrement buttons in Safari.
+Corrige el estilo del cursor de los botones de incremento y decremento en Safari.
 */
 
 ::-webkit-inner-spin-button,
@@ -228,8 +228,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 }
 
 /*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
+1. Corrige el aspecto extraño en Chrome y Safari.
+2. Corrige el estilo de contorno en Safari.
 */
 
 [type='search'] {
@@ -241,7 +241,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 }
 
 /*
-Remove the inner padding in Chrome and Safari on macOS.
+Elimina el relleno interior en Chrome y Safari en macOS.
 */
 
 ::-webkit-search-decoration {
@@ -249,8 +249,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
+1. Corrección de la imposibilidad de aplicar estilos a tipos clicables en iOS y Safari.
+2. Cambia las propiedades de las fuentes a "heredar" en Safari.
 */
 
 ::-webkit-file-upload-button {
@@ -261,16 +261,14 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
-Add the correct display in Chrome and Safari.
-*/
+Añade la visualización correcta en Chrome y Safari.*/
 
 summary {
   display: list-item;
 }
 
 /*
-Removes the default spacing and border for appropriate elements.
-*/
+Elimina el espaciado y el borde por defecto de los elementos apropiados.*/
 
 blockquote,
 dl,
@@ -306,7 +304,7 @@ menu {
 }
 
 /*
-Prevent resizing textareas horizontally by default.
+Evita el redimensionamiento horizontal por defecto de las áreas de texto.
 */
 
 textarea {
@@ -314,8 +312,8 @@ textarea {
 }
 
 /*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
+1. Restablece la opacidad predeterminada del marcador de posición en Firefox.
+2. Establece el color del marcador de posición predeterminado en el color gris configurado por el usuario.
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
@@ -334,26 +332,20 @@ textarea::placeholder {
 }
 
 /*
-Set the default cursor for buttons.
-*/
+Establece el cursor predeterminado para los botones.*/
 
 button,
 [role="button"] {
   cursor: pointer;
 }
 
-/*
-Make sure disabled buttons don't get the pointer cursor.
-*/
-
 :disabled {
   cursor: default;
 }
 
 /*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
+1. Hace que los elementos reemplazados sean `display: block` por defecto.
+2. Añade `vertical-align: middle` para alinear los elementos sustituidos de forma más sensible por defecto. 
 */
 
 img,
@@ -366,12 +358,10 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
-  /* 2 */
 }
 
 /*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+Restringe las imágenes y los vídeos a la anchura principal y conserva su relación de aspecto intrínseca.
 */
 
 img,
